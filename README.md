@@ -1,48 +1,48 @@
 #Clicker
 
-##Étape 1 : structure de base
-Faire une structure de base HTML / CSS / JS. Dans le HTML, mettre un bouton avec un identifiant « clic » et une div avec un identifiant « affichage », dont la valeur initiale sera 0.
+## Step 1: Basic structure
+Make HTML / CSS / JS basic structure. In HTML, put a button with a "click" and identifying a div with an ID "display", whose initial value is 0.
 
-##Étape 2 : préparer le JS
-Préparez les variables en tête du JS qui nous permettront de manipuler notre bouton et notre div. Nous aurons également besoin d'une variable score que nous initialiserons à 0.
+## Step 2: Prepare the JS
+Prepare the head JS variables that allow us to manipulate our button and our div. We will also need a variable that we score 0 reinitialised.
 
-##Étape 3 : augmenter le score
-Quand on clique sur le bouton, faire augmenter la variable score de 1, puis afficher ce score dans la div affichage.
+## Step 3: increase the score
+When you click the button, increase the variable score of 1, and then display it in the score display div.
 
-##Étape 4 : préparation du multiplicateur
-Ajouter un bouton dont l'identifiant est multiplier. Préparer sa variable à coté de l'affichage et du bouton dans le JS. Entretenir un compteur de clics (dont la variable s'appellera multiplicateur et sera initialisée à 1) sur ce bouton. La fonction associée au clic du multiplicateur s'appellera augmenterMultiplicateur.
+## Step 4: Multiplier preparation
+Add a button with the ID multiply. Preparing variable next to the display and the button in the JS. Maintain a click counter (the variable multiplier will be called and will be set to 1) this button. The function associated with the click multiplier will be called augmenterMultiplicateur.
 
-##Étape 5 : utilisation du multiplicateur
-Faire en sorte que l'augmentation du score via le clic du premier bouton ne soit plus de 1 mais de la valeur du multiplicateur. Par exemple, si j'ai cliqué une fois sur le bouton multiplicateur, chaque clic sur le premier bouton ajoutera désormais 2 au lieu de 1.
+## Step 5: Using the multiplier
+Making the score increase via the click the first button is more than 1 but the value of the multiplier. For example, if I clicked once on the multiplier button, each click on the first button now add 2 instead of 1.
 
-##Étape 6 : prix du multiplicateur
-Le multiplicateur vous permet de gagner du score plus rapidement. Ça ne devrait pas être gratuit ! Faites en sorte que cliquer sur le bouton multiplicateur diminue de 50 votre score.
+## Step 6: multiplying the price
+The multiplier allows you to gain score faster. It should not be free! Make click on the button multiplier decreases by 50 your score.
 
-##Étape 7 : on ne fait pas crédit
-On ne peut pas faire crédit et on ne veut pas de score négatif. Pensez à mettre à jour l'affichage du score après l'achat !
+## Step 7: one does not credit
+We can not give credit and they do not want negative score. Remember to update the display of the score after the purchase!
 
-##Étape 8 : affichage du compteur
-Affichez le compteur de multiplicateur à l'intérieur du bouton. Par exemple, si compteur vaut 5, il faut que le texte du bouton soit « Multiplicateur x5 ».
+## Step 8: counter display
+Display the multiplier counter inside the button. For example, if the counter is 5, it is necessary that the button text is "x5 multiplier."
 
-##Étape 9 : augmentation du prix
-Acheter plein de multiplicateurs est trop facile. Essayez à partir de l'étape 6, vous comprendrez pourquoi  Il faudrait que plus on achète de multiplicateurs, plus ceux-ci soit chers.
-Par exemple, le premier vaudrait 50, le suivant 100, le suivant 200, etc. Pas la peine de vous compliquer la vie, ne faites pas pleins de conditions  Trouvez une autre façon de faire évoluer le prix !
+## Step 9: price increase
+Buy full multiplier is too easy. Try starting from step 6, you will understand why we would have to buy more multipliers, plus they be expensive.
+For example, the first would be 50, the following 100, the following 200, etc. No need to complicate your life, do not do full conditions Find another way to change the price!
 
-##Étape 10 : affichage du prix
-Dans le texte du bouton, en plus du « x5 », ajouter le coût du prochain achat.
+## Step 10: the price display
+In the text of the button, in addition to "x5", add the cost of the next purchase.
 
-##Étape 11 : autoclicker
-Nouvelle amélioration à acheter : Autoclick. Dès que vous avez un score de 200, un clic est fait automatiquement chaque seconde. (setInterval est ton ami)
+## Step 11: autoclicker
+Further improvement to buy: Autoclick. Once you have a score of 200, a click is done automatically every second. (SetInterval is your friend)
 
-##Étape 12: achat d'autoclicker
-L'autoclicker ne sera plus automatique. Il faut dorénavant acheter l'autoclicker. Vous ajouterez un bouton avec l'id autoclic. Il coutera 500. Une fois que l'autoclicker a été acheté, il faudra désactiver le bouton d'achat de l'autoclic.
+## Step 12: shopping autoclicker
+The autoclicker will not be automatic. We must now buy the autoclicker. You will add a button with id Autoclic. It will cost 500. Once the autoclicker was purchased, it will disable the buy button of Autoclic.
 
-##Étape 13: achat d'un bonus
-Désormais, on doit pouvoir acheter un bonus qui augmente le score de 200% à chaque clic pendant 30 secondes. C'est à dire que si à chaque clic, le score augmente de 3, pendant les 30 secondes de bonus le score augmentera de 6 a chaque clic, au bout des 30 secondes le score augmentera à nouveau de 3 par clic.
-Vous créerez le bouton "BONUS" avec l'id bonus, et le bonus coutera 5000. Lorsque le bonus est acheté, le nombre de seconde s'affichera dans le bouton avec le décompte et le bouton devra etre désactivé pendant le temps du bonus. Quand le bonus est fini, le bouton est réactivé et retrouve son texte d'origine.
+## Step 13: Buying a bonus
+Now we must buy a bonus that increases the score of 200% for 30 seconds each click. Ie if each click, score increases by 3 for 30 seconds to score the bonus will increase from 6 to every click, after 30 seconds the score will increase again to 3 per click.
+You will create the "BONUS" button with id bonus, and the bonus will cost 5000. When the bonus is purchased, the number of seconds will appear in the button with the count and the button will be disabled during the time the bonus. When the bonus is finished, the button is reactivated and returns to its original text.
 
-##Étape 14: désactiver les boutons si j'ai pas le score pour acheter les améliorations
-Faire en sorte que les boutons multiplicateur, autoclic et bonus ne soient clicables QUE si j'ai le score nécessaire pour les acheter.
+## Step 14: disable buttons if I am not score to buy upgrades
+Ensure that the multiplier buttons Autoclic and bonuses are not clickable THAT if I have the score needed to buy them.
 
-##Étape 15: du CSS
-Que ce soit jouli! Pas d'images!
+## Step 15: CSS
+Whether jouli! No pictures!
