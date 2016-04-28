@@ -48,4 +48,4 @@ Vous créerez le bouton "BONUS" avec l'id `bonus`, et le bonus coutera `5000`. L
 Faire en sorte que les boutons multiplicateur, autoclic et bonus ne soient clicables QUE si j'ai le score nécessaire pour les acheter.
 
 ## Étape 15 : du CSS
-Que ce soit jouli! Pas d'images!
+Que ce soit beau ! Pas d'images !
