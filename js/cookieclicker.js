@@ -17,113 +17,113 @@ var multiplier = 1;
 var bonusTime = 5;
 
 function displayScore() {
-  display.innerHTML = score;
+    display.innerHTML = score;
 }
 
 function displayMultiplier() {
-  multiply.value = 'Multiplier x' + multiplier + ' (next: cost ' + multiplierCost + ')';
+    multiply.value = 'Multiplier x' + multiplier + ' (next: cost ' + multiplierCost + ')';
 }
 
 function displayAutoclick() {
-  autoclick.value = 'Autoclick (cost ' + autoclickCost + ')';
+    autoclick.value = 'Autoclick (cost ' + autoclickCost + ')';
 }
 
 function displayBonus() {
-  bonus.value = 'Bonus (cost ' + bonusCost + ')';
+    bonus.value = 'Bonus (cost ' + bonusCost + ')';
 }
 
 function displayBonusTime() {
-  bonus.value = 'Bonus (time: ' + bonusTime + ' sec)';
+    bonus.value = 'Bonus (time: ' + bonusTime + ' sec)';
 }
 
 function multiplyEnabler() {
-  if (score >= multiplierCost) {
-    multiply.disabled = false;
-  } else {
-    multiply.disabled = true;
-  }
+    if (score >= multiplierCost) {
+        multiply.disabled = false;
+    } else {
+        multiply.disabled = true;
+    }
 }
 
 function autoclickEnabler() {
-  if (!autoclickOn && score >= autoclickCost) {
-    autoclick.disabled = false;
-  } else {
-    autoclick.disabled = true;
-  }
+    if (!autoclickOn && score >= autoclickCost) {
+        autoclick.disabled = false;
+    } else {
+        autoclick.disabled = true;
+    }
 }
 
 function bonusEnabler() {
-  if (!bonusOn && score >= bonusCost) {
-    bonus.disabled = false;
-  } else {
-    bonus.disabled = true;
-  }
+    if (!bonusOn && score >= bonusCost) {
+        bonus.disabled = false;
+    } else {
+        bonus.disabled = true;
+    }
 }
 
 function buttonsEnabler() {
-  multiplyEnabler();
-  autoclickEnabler();
-  bonusEnabler();
+    multiplyEnabler();
+    autoclickEnabler();
+    bonusEnabler();
 }
 
 function increaseScore() {
-  score += clickValue;
-  buttonsEnabler();
-  displayScore();
+    score += clickValue;
+    buttonsEnabler();
+    displayScore();
 }
 
 
 function increaseMultiplier() {
-  score -= multiplierCost;
-  multiplier += 1;
-  clickValue = multiplier;
-  if (bonusOn) {
-    clickValue *= 2;
-  }
-  multiplierCost *= multiplier;
-  buttonsEnabler();
-  displayScore();
-  displayMultiplier();
+    score -= multiplierCost;
+    multiplier += 1;
+    clickValue = multiplier;
+    if (bonusOn) {
+        clickValue *= 2;
+    }
+    multiplierCost *= multiplier;
+    buttonsEnabler();
+    displayScore();
+    displayMultiplier();
 }
 
 function enableAutoclick() {
-  score -= autoclickCost;
-  autoclickOn = true;
-  autoclick.disabled = true;
-  displayScore();
+    score -= autoclickCost;
+    autoclickOn = true;
+    autoclick.disabled = true;
+    displayScore();
 }
 
 function autoclickF() {
-  if (autoclickOn) {
-    increaseScore();
-  }
+    if (autoclickOn) {
+        increaseScore();
+    }
 }
 
 function enableBonus() {
-  score -= bonusCost;
-  bonusOn = true;
-  clickValue *= 2;
-  bonus.disabled = true;
-  displayScore();
-  displayBonusTime();
+    score -= bonusCost;
+    bonusOn = true;
+    clickValue *= 2;
+    bonus.disabled = true;
+    displayScore();
+    displayBonusTime();
 }
 
 function disableBonus() {
-  bonusOn = false;
-  bonusTime = 30;
-  clickValue = multiplier;
-  displayBonus();
-  buttonsEnabler();
+    bonusOn = false;
+    bonusTime = 30;
+    clickValue = multiplier;
+    displayBonus();
+    buttonsEnabler();
 }
 
 function bonusF() {
-  if (bonusOn) {
-    --bonusTime;
-    displayBonusTime();
-    if (bonusTime === 0) {
-      disableBonus();
+    if (bonusOn) {
+        --bonusTime;
+        displayBonusTime();
+        if (bonusTime === 0) {
+            disableBonus();
+        }
     }
-  }
 }
 
 displayScore();
