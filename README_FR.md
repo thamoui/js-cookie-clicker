@@ -1,4 +1,4 @@
-# JS Cookie Clicker :cookie: !
+# JS Cookie Clicker :cookie:
 
 - Cookie Clicker Officiel: https://particle-clicker.web.cern.ch/particle-clicker/
 - CERN Particle Clicker: http://orteil.dashnet.org/cookieclicker/
