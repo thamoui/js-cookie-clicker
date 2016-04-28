@@ -1,4 +1,4 @@
-# Cookie Clicker :cookie:
+# JS Cookie Clicker :cookie:
 
 ## Étape 1 : structure de base
 Faire une structure de base HTML / CSS / JS. Dans le HTML, mettre un bouton avec un identifiant `clic` et une `div` avec un identifiant `affichage`, dont la valeur initiale sera `0`.
