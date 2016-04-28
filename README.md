@@ -4,19 +4,19 @@
 - CERN Particle Clicker: http://orteil.dashnet.org/cookieclicker/
 
 ## Step 1: basic structure
-Make HTML / CSS / JS basic structure. In HTML, put a button with a "click" and identifying a div with an ID "display", whose initial value is 0.
+Make the HTML / CSS / JS basic structure. In HTML, put a `button` with a "click" and identifying a `div` with an ID `display`, whose initial value is `0`.
 
 ## Step 2: prepare the JS
-Prepare the head JS variables that allow us to manipulate our button and our div. We will also need a variable that we score 0 reinitialised.
+Prepare the head JS variables that allow us to manipulate our `button` and our `div`. We will also need a `score` variable that we score initialised to `0`.
 
 ## Step 3: increase the score
-When you click the button, increase the variable score of 1, and then display it in the score display div.
+When you click the button, increase the variable `score` of `1`, and then display it in the score display `div`.
 
 ## Step 4: multiplier preparation
-Add a button with the ID multiply. Preparing variable next to the display and the button in the JS. Maintain a click counter (the variable multiplier will be called and will be set to 1) this button. The function associated with the click multiplier will be called augmenterMultiplicateur.
+Add a button with the ID `multiply`. Preparing next variable to the display the button in JS. Maintain a click counter (the variable `multiplier` will be called and will be set to `1`). The `function` associated with the click multiplier will be called `augmenterMultiplicateur`.
 
 ## Step 5: using the multiplier
-Making the score increase via the click the first button is more than 1 but the value of the multiplier. For example, if I clicked once on the multiplier button, each click on the first button now add 2 instead of 1.
+Making the score increase via the click the first button is more than `1` but the value of the multiplier. For example, if I clicked once on the multiplier button, each click on the first button now add `2` instead of `1`.
 
 ## Step 6: multiplying the price
 The multiplier allows you to gain score faster. It should not be free! Make click on the button multiplier decreases by 50 your score.
