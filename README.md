@@ -48,4 +48,4 @@ You will create the "BONUS" button with id bonus, and the bonus will cost 5000. 
 Ensure that the multiplier buttons Autoclic and bonuses are not clickable THAT if I have the score needed to buy them.
 
 ## Step 15: CSS
-Whether Beautifull! No pictures!
+Whether beautifull! No pictures!
