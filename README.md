@@ -49,4 +49,4 @@ You will create the "BONUS" button with id `bonus`, and the bonus will cost `500
 Ensure that the multiplier buttons, Autoclic and bonuses are not active when there is no enough scores to buy upgrades.
 
 ## Step 15: CSS
-Wheathe is beautifull! No pictures!
+Wheather is beautifull! No pictures!
