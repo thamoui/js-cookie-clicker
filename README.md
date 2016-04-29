@@ -17,7 +17,7 @@ Add a button with the ID `multiply`. Then Write a variable to the display the bu
 
 ## Step 5: using the multiplier
 Making the score increase via the click the first button is more than `1` but the value of the multiplier. For example, if I clicked once on the multiplier button, each click on the first button now add `2` instead of `1`.
-**// really don't fully understand, We need to discuss this part//** (adam)
+
 ## Step 6: multiplying the price
 The multiplier allows you to gain score faster but this should not be free! for instance each time you click on the  multiplier button this will deduct `50` score from your total gained score.
 
