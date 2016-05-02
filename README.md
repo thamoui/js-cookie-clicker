@@ -5,6 +5,9 @@
 
 ## Level 0: Clone me
 Clone the GitHub repository on you computer, of course!
+```shell
+git clone git@github.com:simplonco/js-cookie-clicker.git
+```
 
 ## Level 1: Basic structure
 Make the HTML / CSS / JS basic structure. In HTML, make a `button` with a "click" and identify a `div` with an ID `display` with initial value of `0`.
@@ -42,7 +45,7 @@ Display the price on  the `button`, in addition to counter display like the prev
 Further improvement to buy is to use : Autoclick. Once you have a credit of `200`, an automatic click will be  done  every second. (`setInterval` is your friend)
 
 ## Level 12: Shopping autoclicker
-The autoclicker will not be automatic. We must now buy the autoclicker. You will add a button with `id` Autoclic. It will cost `500`. Once the autoclicker was purchased, it will disable the buy `button` of Autoclic.
+The autoclicker will not be automatic. We must now buy the autoclicker. You will add a button with ID `autoclic`. It will cost `500`. Once the autoclicker was purchased, it will disable the buy `button` of autoclic.
 
 ## Level 13: Buying a bonus
 Now we must buy a bonus that will increases the scores by 200  for 30 seconds on each click. Each click, score increases by `3` for 30 seconds to score and the bonus will be increased by `6` for each click.
