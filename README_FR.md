@@ -4,7 +4,7 @@
 - CERN Particle Clicker: https://particle-clicker.web.cern.ch/particle-clicker/
 
 ## Étape 1 : _structure de base_
-Faire une structure de base *HTML* / *CSS* / *JS*. Dans le HTML, mettre un bouton avec un identifiant "clic" et une `div` avec un identifiant `affichage`, dont la valeur initiale sera `0`.
+Faire une structure de base *HTML* / *CSS* / *JS*. Dans le HTML, mettre un bouton avec un identifiant « clic » et une `div` avec un identifiant `affichage`, dont la valeur initiale sera `0`.
 
 ## Étape 2 : _préparer le JS_
 Préparez les variables en tête du *JS* qui nous permettront de manipuler notre bouton et notre `div`. Nous aurons également besoin d'une variable `score` que nous initialiserons à `0`.
@@ -32,7 +32,7 @@ Acheter plein de multiplicateurs est trop facile. Essayez à partir de l'étape 
 Par exemple, le premier vaudrait `50`, le suivant `100`, le suivant `200`, etc.. Pas la peine de vous compliquer la vie, ne faites pas pleins de conditions. Trouvez une autre façon de faire évoluer le prix !
 
 ## Étape 10 : _affichage du prix_
-Dans le texte du bouton, en plus du "x5", ajouter le coût du prochain achat.
+Dans le texte du bouton, en plus du « x5 », ajouter le coût du prochain achat.
 
 ## Étape 11 : _autoclicker_
 Nouvelle amélioration à acheter : Autoclick. Dès que vous avez un score de `200`, un clic est fait automatiquement chaque seconde. (`setInterval` est ton ami)
@@ -42,7 +42,7 @@ L'autoclicker ne sera plus automatique. Il faut dorénavant acheter l'autoclicke
 
 ## Étape 13 : _achat d'un bonus_
 Désormais, on doit pouvoir acheter un bonus qui augmente le score de 200% à chaque clic pendant 30 secondes. C'est à dire que si à chaque clic, le score augmente de `3`, pendant les 30 secondes de bonus le score augmentera de `6` à chaque clic, au bout des 30 secondes le score augmentera à nouveau de `3` par clic.
-Vous créerez le bouton "BONUS" avec l'id `bonus`, et le bonus coutera `5000`. Lorsque le bonus est acheté, le nombre de seconde s'affichera dans le bouton avec le décompte et le bouton devra etre désactivé pendant le temps du bonus. Quand le bonus est fini, le bouton est réactivé et retrouve son texte d'origine.
+Vous créerez le bouton « BONUS » avec l'id `bonus`, et le bonus coutera `5000`. Lorsque le bonus est acheté, le nombre de seconde s'affichera dans le bouton avec le décompte et le bouton devra etre désactivé pendant le temps du bonus. Quand le bonus est fini, le bouton est réactivé et retrouve son texte d'origine.
 
 ## Étape 14 : _désactiver les boutons (si j'ai pas le score pour acheter les améliorations)_
 Faire en sorte que les boutons multiplicateur, autoclic et bonus ne soient clicables QUE si j'ai le score nécessaire pour les acheter.
