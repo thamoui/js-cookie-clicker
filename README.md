@@ -49,7 +49,7 @@ The autoclicker will not be automatic. We must now buy the autoclicker. You will
 
 ## Level 13: _Buying a bonus_
 Now we must buy a bonus that will increases the scores by `200` for 30 seconds on each click. Each click, score increases by `3` for 30 seconds to score and the bonus will be increased by `6` for each click.
-You will create the "BONUS" button with id `bonus`, and the bonus will cost `5000`. When the bonus is purchased, the number of seconds will appear in the button with counter and the button will be disabled during bonus time. When bonus timeout, the button will be reactivated and returns to its original condition.
+You will create the "BONUS" button with *ID* `bonus`, and the bonus will cost `5000`. When the bonus is purchased, the number of seconds will appear in the button with counter and the button will be disabled during bonus time. When bonus timeout, the button will be reactivated and returns to its original condition.
 
 ## Level 14: _Disable buttons (if you don't have scores to buy upgrades)_
 Ensure that the multiplier buttons, Autoclic and bonuses are not active when there is no enough scores to buy upgrades.
