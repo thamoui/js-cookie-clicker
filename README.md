@@ -22,7 +22,7 @@ When you click the button, it will increase the variable `score` by `1`, and the
 Add a `button` with the *ID* `multiply`. Then write a variable to the display the button in *JS*. Create a click counter as variable and name it  `multiplier` with value equal to `1`). After that create a`function` associated with the click multiplier called `augmenterMultiplicateur`.
 
 ## Level 5: _Using the multiplier_
-Making the score increase via the click, the first button is more than `1` but the value of the multiplier. For example, if I clicked once on the multiplier button, each click on the first button now add `2` instead of `1`.
+Making the score increase by the value of the multiplier for each click. For example, if I clicked once on the multiplier button, each click on the first button now add `2` instead of `1`.
 
 ## Level 6: _Multiplying the price_
 The multiplier allows you to gain score faster but this should not be free! For instance each time you click on the multiplier button this will deduct `50` score from your total gained score.
