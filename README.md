@@ -10,16 +10,16 @@ git clone git@github.com:simplonco/js-cookie-clicker.git
 ```
 
 ## Level 1: _Basic structure_
-Make the HTML / CSS / JS basic structure. In HTML, make a `button` with a "click" and identify a `div` with an ID `display` with initial value of `0`.
+Make the *HTML* / *CSS* / *JS* basic structure. In *HTML*, make a `button` with a "click" and identify a `div` with an *ID* `display` with initial value of `0`.
 
 ## Level 2: _Create the basic JS_
-Write the head of JS variables that allow us to manipulate our `button` and our `div`. We will also need a `score` variable for resulted score and has intial value of  `0`.
+Write the head of *JS* variables that allow us to manipulate our `button` and our `div`. We will also need a `score` variable for resulted score and has intial value of  `0`.
 
 ## Level 3: _Score increament_
 When you click the button, it will increase the variable `score` by `1`, and then display it in the score display `div`.
 
 ## Level 4: _Multiplier creation_
-Add a button with the ID `multiply`. Then Write a variable to the display the button in JS. Create a click counter as variable and name it  `multiplier` with value equal to `1`). After that create a`function` associated with the click multiplier called `augmenterMultiplicateur`.
+Add a button with the *ID* `multiply`. Then Write a variable to the display the button in *JS*. Create a click counter as variable and name it  `multiplier` with value equal to `1`). After that create a`function` associated with the click multiplier called `augmenterMultiplicateur`.
 
 ## Level 5: _Using the multiplier_
 Making the score increase via the click the first button is more than `1` but the value of the multiplier. For example, if I clicked once on the multiplier button, each click on the first button now add `2` instead of `1`.
@@ -45,10 +45,10 @@ Display the price on  the `button`, in addition to counter display like the prev
 Further improvement to buy is to use : Autoclick. Once you have a credit of `200`, an automatic click will be  done  every second. (`setInterval` is your friend)
 
 ## Level 12: _Shopping autoclicker_
-The autoclicker will not be automatic. We must now buy the autoclicker. You will add a button with ID `autoclic`. It will cost `500`. Once the autoclicker was purchased, it will disable the buy `button` of autoclic.
+The autoclicker will not be automatic. We must now buy the autoclicker. You will add a button with *ID* `autoclic`. It will cost `500`. Once the autoclicker was purchased, it will disable the buy `button` of autoclic.
 
 ## Level 13: _Buying a bonus_
-Now we must buy a bonus that will increases the scores by 200  for 30 seconds on each click. Each click, score increases by `3` for 30 seconds to score and the bonus will be increased by `6` for each click.
+Now we must buy a bonus that will increases the scores by `200` for 30 seconds on each click. Each click, score increases by `3` for 30 seconds to score and the bonus will be increased by `6` for each click.
 You will create the "BONUS" button with id `bonus`, and the bonus will cost `5000`. When the bonus is purchased, the number of seconds will appear in the button with counter and the button will be disabled during bonus time. When bonus timeout, the button will be reactivated and returns to its original condition.
 
 ## Level 14: _Disable buttons (if you don't have scores to buy upgrades)_
