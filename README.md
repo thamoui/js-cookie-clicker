@@ -1,7 +1,7 @@
 # JS Cookie Clicker :cookie:
 
-- Official Cookie Clicker: https://particle-clicker.web.cern.ch/particle-clicker/
-- CERN Particle Clicker: http://orteil.dashnet.org/cookieclicker/
+- Official Cookie Clicker: http://orteil.dashnet.org/cookieclicker/
+- CERN Particle Clicker: https://particle-clicker.web.cern.ch/particle-clicker/
 
 ## Step 1: basic structure
 Make the HTML / CSS / JS basic structure. In HTML, make a `button` with a "click" and identify a `div` with an ID `display` with initial value of `0`.
