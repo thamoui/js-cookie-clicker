@@ -1,7 +1,7 @@
-# JS Cookie Clicker :cookie:
+# JS Cookie Clicker
 
-- Official Cookie Clicker: http://orteil.dashnet.org/cookieclicker/
-- CERN Particle Clicker: https://particle-clicker.web.cern.ch/particle-clicker/
+- Official Cookie Clicker: <http://orteil.dashnet.org/cookieclicker/>
+- CERN Particle Clicker: <https://particle-clicker.web.cern.ch/particle-clicker/>
 
 ## Level 1: _Basic structure_
 Make the *HTML* / *CSS* / *JS* basic structure. In *HTML*, make a `button` with a "click" and identify a `div` with an *ID* `display` with initial value of `0`.
