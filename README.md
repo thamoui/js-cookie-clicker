@@ -24,10 +24,10 @@ Add a button with the ID `multiply`. Then Write a variable to the display the bu
 ## Level 5: _Using the multiplier_
 Making the score increase via the click the first button is more than `1` but the value of the multiplier. For example, if I clicked once on the multiplier button, each click on the first button now add `2` instead of `1`.
 
-## Step 6: _Multiplying the price_
+## Level 6: _Multiplying the price_
 The multiplier allows you to gain score faster but this should not be free! for instance each time you click on the  multiplier button this will deduct `50` score from your total gained score.
 
-## Step 7: _We don't give credit_
+## Level 7: _We don't give credit_
 We can not give credit and we don't want to display negative score. Remember to update the display of the score after each purchase!
 
 ## Level 8: _Counter display_
