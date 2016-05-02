@@ -19,13 +19,13 @@ Write the head of *JS* variables that allow us to manipulate our `button` and ou
 When you click the button, it will increase the variable `score` by `1`, and then display it in the score display `div`.
 
 ## Level 4: _Multiplier creation_
-Add a button with the *ID* `multiply`. Then Write a variable to the display the button in *JS*. Create a click counter as variable and name it  `multiplier` with value equal to `1`). After that create a`function` associated with the click multiplier called `augmenterMultiplicateur`.
+Add a `button` with the *ID* `multiply`. Then write a variable to the display the button in *JS*. Create a click counter as variable and name it  `multiplier` with value equal to `1`). After that create a`function` associated with the click multiplier called `augmenterMultiplicateur`.
 
 ## Level 5: _Using the multiplier_
-Making the score increase via the click the first button is more than `1` but the value of the multiplier. For example, if I clicked once on the multiplier button, each click on the first button now add `2` instead of `1`.
+Making the score increase via the click, the first button is more than `1` but the value of the multiplier. For example, if I clicked once on the multiplier button, each click on the first button now add `2` instead of `1`.
 
 ## Level 6: _Multiplying the price_
-The multiplier allows you to gain score faster but this should not be free! for instance each time you click on the  multiplier button this will deduct `50` score from your total gained score.
+The multiplier allows you to gain score faster but this should not be free! For instance each time you click on the multiplier button this will deduct `50` score from your total gained score.
 
 ## Level 7: _We don't give credit_
 We can not give credit and we don't want to display negative score. Remember to update the display of the score after each purchase!
@@ -35,14 +35,14 @@ Display the multiplier counter inside the `button`. For example, if the counter 
 "x5 multiplier".
 
 ## Level 9: _Price increament_
-to buy full multiplier is too easy. Go back to step 6, you will understand why we should buy more multipliers, plus they are expensive.
+Buy full multiplier is too easy. Go back to step 6, you will understand why we should buy more multipliers, plus they are expensive.
 For example, the first would be `50`, the following `100`, the following `200`, etc.. No need to complicate your life, do not do full conditions, find another way to change the price!
 
 ## Level 10: _Displaying of Price_
-Display the price on  the `button`, in addition to counter display like the previouse example which showed  "x5", it has to display the cost of the next purchase next to counter display.
+Display the price onthe `button`, in addition to counter display like the previouse example which showed  "x5", it has to display the cost of the next purchase next to counter display.
 
 ## Level 11: _Autoclicker_
-Further improvement to buy is to use : Autoclick. Once you have a credit of `200`, an automatic click will be  done  every second. (`setInterval` is your friend)
+Further improvement to buy is to use: Autoclick. Once you have a credit of `200`, an automatic click will bedone every second. (`setInterval` is your friend)
 
 ## Level 12: _Shopping autoclicker_
 The autoclicker will not be automatic. We must now buy the autoclicker. You will add a button with *ID* `autoclic`. It will cost `500`. Once the autoclicker was purchased, it will disable the buy `button` of autoclic.
