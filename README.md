@@ -3,7 +3,7 @@
 - Official Cookie Clicker: <http://orteil.dashnet.org/cookieclicker/>
 - CERN Particle Clicker: <https://particle-clicker.web.cern.ch/particle-clicker/>
 
-![Chocolate Chip Cookies](Chocolate_Chip_Cookies_-_kimberlykv.jpg)
+![Chocolate Chip Cookies](chocolate_chip_cookies.jpg)
 
 ## Level 1: _Basic structure_
 Make the *HTML* / *CSS* / *JS* basic structure. In *HTML*, make a `button` with a "click" and identify a `div` with an *ID* `display` with initial value of `0`.
