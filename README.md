@@ -1,19 +1,21 @@
-# JS Cookie Clicker :cookie:
+# JS Cookie Clicker
 
-- Official Cookie Clicker: http://orteil.dashnet.org/cookieclicker/
-- CERN Particle Clicker: https://particle-clicker.web.cern.ch/particle-clicker/
+- Official Cookie Clicker: <http://orteil.dashnet.org/cookieclicker/>
+- CERN Particle Clicker: <https://particle-clicker.web.cern.ch/particle-clicker/>
+
+![Chocolate Chip Cookies](Chocolate_Chip_Cookies_-_kimberlykv.jpg)
 
 ## Level 1: _Basic structure_
 Make the *HTML* / *CSS* / *JS* basic structure. In *HTML*, make a `button` with a "click" and identify a `div` with an *ID* `display` with initial value of `0`.
 
 ## Level 2: _Create the basic JS_
-Write the head of *JS* variables that allow us to manipulate our `button` and our `div`. We will also need a `score` variable for resulted score and has intial value of  `0`.
+Write the head of *JS* variables that allow us to manipulate our `button` and our `div`. We will also need a `score` variable for resulted score and has initial value of `0`.
 
 ## Level 3: _Score increament_
 When you click the button, it will increase the variable `score` by `1`, and then display it in the score display `div`.
 
 ## Level 4: _Multiplier creation_
-Add a `button` with the *ID* `multiply`. Then write a variable to the display the button in *JS*. Create a click counter as variable and name it  `multiplier` with value equal to `1`). After that create a`function` associated with the click multiplier called `augmenterMultiplicateur`.
+Add a `button` with the *ID* `multiply`. Create a click counter as variable and name it `multiplier` with value equal to `1`). After that create a`function` associated with the click multiplier called `augmenterMultiplicateur`.
 
 ## Level 5: _Using the multiplier_
 Making the score increase by the value of the multiplier for each click. For example, if I clicked once on the multiplier button, each click on the first button now add `2` instead of `1`.
