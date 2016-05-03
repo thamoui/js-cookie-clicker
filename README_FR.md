@@ -1,7 +1,9 @@
-# JS Cookie Clicker :cookie:
+# JS Cookie Clicker
 
-- Cookie Clicker Officiel: http://orteil.dashnet.org/cookieclicker/
-- CERN Particle Clicker: https://particle-clicker.web.cern.ch/particle-clicker/
+- Cookie Clicker Officiel: <http://orteil.dashnet.org/cookieclicker/>
+- CERN Particle Clicker: <https://particle-clicker.web.cern.ch/particle-clicker/>
+
+![Chocolate Chip Cookies](Chocolate_Chip_Cookies_-_kimberlykv.jpg)
 
 ## Étape 1 : _structure de base_
 Faire une structure de base *HTML* / *CSS* / *JS*. Dans le HTML, mettre un bouton avec un identifiant « clic » et une `div` avec un identifiant `affichage`, dont la valeur initiale sera `0`.
@@ -13,7 +15,7 @@ Préparez les variables en tête du *JS* qui nous permettront de manipuler notre
 Quand on clique sur le bouton, faire augmenter la variable `score` de `1`, puis afficher ce score dans la `div` affichage.
 
 ## Étape 4 : _préparation du multiplicateur_
-Ajouter un bouton dont l'identifiant est `multiplier`. Préparer sa variable à coté de l'affichage et du bouton dans le JS. Entretenir un compteur de clics (dont la variable s'appellera `multiplicateur` et sera initialisée à `1`) sur ce bouton. La fonction associée au clic du multiplicateur s'appellera `augmenterMultiplicateur`.
+Ajouter un bouton dont l'identifiant est `multiplier`. Créer un compteur de clics (dont la variable s'appellera `multiplicateur` et sera initialisée à `1`) sur ce bouton. La fonction associée au clic du multiplicateur s'appellera `augmenterMultiplicateur`.
 
 ## Étape 5 : _utilisation du multiplicateur_
 Faire en sorte que l'augmentation du score via le clic du premier bouton ne soit plus de `1` mais de la valeur du multiplicateur. Par exemple, si j'ai cliqué une fois sur le bouton multiplicateur, chaque clic sur le premier bouton ajoutera désormais `2` au lieu de `1`.
