@@ -1,19 +1,21 @@
-# JS Cookie Clicker :cookie:
+# JS Cookie Clicker
 
-- Official Cookie Clicker: http://orteil.dashnet.org/cookieclicker/
-- CERN Particle Clicker: https://particle-clicker.web.cern.ch/particle-clicker/
+- Official Cookie Clicker: <http://orteil.dashnet.org/cookieclicker/>
+- CERN Particle Clicker: <https://particle-clicker.web.cern.ch/particle-clicker/>
+
+![Chocolate Chip Cookies](chocolate_chip_cookies.jpg)
 
 ## Level 1: _Basic structure_
 Make the *HTML* / *CSS* / *JS* basic structure. In *HTML*, make a `button` with a "click" and identify a `div` with an *ID* `display` with initial value of `0`.
 
 ## Level 2: _Create the basic JS_
-Write the head of *JS* variables that allow us to manipulate our `button` and our `div`. We will also need a `score` variable for resulted score and has intial value of  `0`.
+Write the head of *JS* variables that allow us to manipulate our `button` and our `div`. We will also need a `score` variable for resulted score and has initial value of `0`.
 
 ## Level 3: _Score increament_
 When you click the button, it will increase the variable `score` by `1`, and then display it in the score display `div`.
 
 ## Level 4: _Multiplier creation_
-Add a `button` with the *ID* `multiply`. Then write a variable to the display the button in *JS*. Create a click counter as variable and name it  `multiplier` with value equal to `1`). After that create a`function` associated with the click multiplier called `augmenterMultiplicateur`.
+Add a `button` with the *ID* `multiply`. Create a click counter as variable and name it `multiplier` with value equal to `1`). After that create a`function` associated with the click multiplier called `augmenterMultiplicateur`.
 
 ## Level 5: _Using the multiplier_
 Making the score increase by the value of the multiplier for each click. For example, if I clicked once on the multiplier button, each click on the first button now add `2` instead of `1`.
@@ -36,7 +38,7 @@ For example, the first would be `50`, the following `100`, the following `200`, 
 Display the price onthe `button`, in addition to counter display like the previouse example which showed  "x5", it has to display the cost of the next purchase next to counter display.
 
 ## Level 11: _Autoclicker_
-Further improvement to buy is to use: Autoclick. Once you have a credit of `200`, an automatic click will bedone every second. (`setInterval` is your friend)
+Further improvement to buy is to use: autoclick. Once you have a credit of `200`, an automatic click will be done every second. (`setInterval` is your friend)
 
 ## Level 12: _Shopping autoclicker_
 The autoclicker will not be automatic. We must now buy the autoclicker. You will add a button with *ID* `autoclic`. It will cost `500`. Once the autoclicker was purchased, it will disable the buy `button` of autoclic.
@@ -46,7 +48,7 @@ Now we must buy a bonus that will increases the scores by `200` for 30 seconds o
 You will create the "BONUS" button with *ID* `bonus`, and the bonus will cost `5000`. When the bonus is purchased, the number of seconds will appear in the button with counter and the button will be disabled during bonus time. When bonus timeout, the button will be reactivated and returns to its original condition.
 
 ## Level 14: _Disable buttons (if you don't have scores to buy upgrades)_
-Ensure that the multiplier buttons, Autoclic and bonuses are not active when there is no enough scores to buy upgrades.
+Ensure that the multiplier buttons, autoclic and bonuses are not active when there is no enough scores to buy upgrades.
 
 ## Level 15: _CSS_
 Wheather is beautifull! No pictures!
